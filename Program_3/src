@@ -1,0 +1,16 @@
+For Graph
+
+import matplotlib.pyplot as plt
+x=[1,2,3,4,5]
+y=[1,4,9,16,25]
+plt.xlabel("red")
+plt.plot(x,y)
+plt.show()
+
+For Pie chart
+
+import matplotlib.pyplot as plt
+import numpy as np
+y=np.array([35,25,25,15])
+plt.pie(y,autopct='%1.1f%%')
+plt.show()
